@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: kafka-client-2
+  name: kafka-client-2
+  namespace: kafka
+spec:
+  containers:
+  - command:
+    - sleep
+    - infinity
+    image: docker.io/bitnami/kafka:3.4.0-debian-11-r6
+    name: kafka-client-2
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}
