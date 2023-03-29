@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: kafka-client-2
+    run: kafka-client-21
   name: kafka-client-2
   namespace: kafka
 spec:
